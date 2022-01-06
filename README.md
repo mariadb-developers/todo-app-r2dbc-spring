@@ -26,7 +26,7 @@ This README will walk you through the steps for getting the `TODO` web applicati
 4. [Create the database and table](#schema)
 5. [Configure, build and run the apps](#app)
     1. [Configure](#configure-api-app)
-    2. [Build and run the .NET API app](#build-run-api)
+    2. [Build and run the Java API app](#build-run-api)
     3. [Build and run the Client app](#build-run-client)
 6. [Support and contribution](#support-contribution)
 7. [License](#license)
@@ -115,7 +115,7 @@ spring.r2dbc.pool.max-size=10
 spring.r2dbc.pool.max-idle-time=30m
 ```
 
-### b.) Build and run the [API app](src/api) <a name="build-run-api"></a>
+### b.) Build and run the Java [API app](src/api) <a name="build-run-api"></a>
 
 Once you have retrieved a copy of the code you're ready to build and run the project! Start by opening a terminal and navigating to the root of the [api](src/api) folder, then...
 
